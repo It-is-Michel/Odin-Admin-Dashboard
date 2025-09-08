@@ -69,8 +69,10 @@
 
   grid-area: side;
 
+  --nav-link-height: 2rem;
+
   display: grid;
-  grid-auto-rows: 2rem;
+  grid-auto-rows: var(--nav-link-height);
 
   background-color: var(--color-hsl-accent-color);
 }
