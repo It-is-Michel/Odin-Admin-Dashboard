@@ -97,6 +97,13 @@
   grid-template: subgrid;
 }
 
+.side__nav-link {
+  font-family: var(--font-paragraph);
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-hsl-main-color);
+}
+
 /* HEADER */
 
 .header {
