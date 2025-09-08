@@ -56,7 +56,7 @@
 
 .body-wrapper {
   display: grid;
-  grid-template: 150px 1fr / clamp(20ch, 20vw, 300px) 1fr;
+  grid-template: 15ch 1fr / clamp(20ch, 20vw, 300px) 1fr;
   grid-template-areas:
     "side header"
     "side main";
