@@ -65,6 +65,8 @@
 /* SIDE */
 
 .side {
+  padding: 10%;
+
   grid-area: side;
 
   display: grid;
