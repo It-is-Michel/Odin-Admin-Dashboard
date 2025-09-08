@@ -1,5 +1,32 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
+@font-face {
+    font-family: 'Asap';
+    src: url('fonts/Asap-Medium.woff2') format('woff2'),
+        url('fonts/Asap-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap Symbol';
+    src: url('fonts/Asap-Symbol.woff2') format('woff2'),
+        url('fonts/Asap-Symbol.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('fonts/Asap-Regular.woff2') format('woff2'),
+        url('fonts/Asap-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
 
   /* COLOR VARIABLES */
