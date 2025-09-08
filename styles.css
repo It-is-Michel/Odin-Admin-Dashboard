@@ -96,6 +96,8 @@
 .side__secondary-nav-links {
   display: grid;
   grid-template-rows: subgrid;
+
+  font-size: 1.1rem;
 }
 
 .side__main-nav-links {
