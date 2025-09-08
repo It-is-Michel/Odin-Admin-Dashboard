@@ -68,6 +68,8 @@
 
 .side {
   grid-area: side;
+
+  background-color: var(--color-hsl-accent-color);
 }
 
 /* HEADER */
