@@ -83,18 +83,18 @@
   color: var(--color-hsl-main-color);
 }
 
-.side__main-nav-links {
-  grid-row: 4 / span 6;
-
+.side__main-nav-links,
+.side__secondary-nav-links {
   display: grid;
   grid-template: subgrid;
 }
 
+.side__main-nav-links {
+  grid-row: 4 / span 6;
+}
+
 .side__secondary-nav-links {
   grid-row: 11 / span 3;
-
-  display: grid;
-  grid-template: subgrid;
 }
 
 .side__nav-link {
