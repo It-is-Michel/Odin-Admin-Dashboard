@@ -86,7 +86,7 @@
 .side__main-nav-links,
 .side__secondary-nav-links {
   display: grid;
-  grid-template: subgrid;
+  grid-template-rows: subgrid;
 }
 
 .side__main-nav-links {
