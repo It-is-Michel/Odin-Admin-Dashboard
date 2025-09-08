@@ -1,1 +1,27 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+
+  /* COLOR VARIABLES */
+
+  --color-hsl-main-color: hsl(0, 0%, 98%);
+  --color-hsl-main-color-h: 0;
+  --color-hsl-main-color-s: 0%;
+  --color-hsl-main-color-l: 98%;
+
+  --color-hsl-secondary-color: hsl(321, 92%, 57%);
+  --color-hsl-secondary-color-h: 321;
+  --color-hsl-secondary-color-s: 92%;
+  --color-hsl-secondary-color-l: 57%;
+  
+  --color-hsl-background-color: hsl(324, 100%, 98%);
+  --color-hsl-background-color-h: 324;
+  --color-hsl-background-color-s: 100%;
+  --color-hsl-background-color-l: 98%;
+
+  --color-hsl-text-color: hsl(0, 0%, 10%);
+  --color-hsl-text-color-h: 0;
+  --color-hsl-text-color-s: 0%;
+  --color-hsl-text-color-l: 10%;
+  
+}
