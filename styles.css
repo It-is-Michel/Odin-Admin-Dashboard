@@ -55,3 +55,29 @@
   --font-paragraph: "Asap";
 
 }
+
+.body-wrapper {
+  display: grid;
+  grid-template: 150px 1fr / 200px 1fr;
+  grid-template-areas:
+    "side header"
+    "side main";
+}
+
+/* SIDE */
+
+.side {
+  grid-area: side;
+}
+
+/* HEADER */
+
+.header {
+  grid-area: header;
+}
+
+/* MAIN */
+
+.main {
+  grid-area: main;
+}
