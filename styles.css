@@ -72,6 +72,11 @@
   background-color: var(--color-hsl-accent-color);
 }
 
+.side__title {
+  font-family: var(--font-heading);
+  color: var(--color-hsl-main-color);
+}
+
 /* HEADER */
 
 .header {
