@@ -85,6 +85,12 @@
   color: var(--color-hsl-main-color);
 }
 
+.side__nav-link-wrapper {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+}
+
 .side__main-nav-links,
 .side__secondary-nav-links {
   display: grid;
