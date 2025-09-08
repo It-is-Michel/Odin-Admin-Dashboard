@@ -105,6 +105,31 @@
   grid-row: 11 / span 3;
 }
 
+.side__home-icon,
+.side__profile-icon,
+.side__messages-icon,
+.side__history-icon,
+.side__tasks-icon,
+.side__communities-icon,
+.side__settings-icon,
+.side__support-icon,
+.side__privacity-icon {
+  width: 1.3rem;
+  aspect-ratio: 1 / 1;
+
+  filter: invert(100%);
+}
+
+.side__home-icon {background-image: url(icons/home.svg)}
+.side__profile-icon {background-image: url(icons/profile.svg)}
+.side__messages-icon {background-image: url(icons/messages.svg)}
+.side__history-icon {background-image: url(icons/history.svg)}
+.side__tasks-icon {background-image: url(icons/tasks.svg)}
+.side__communities-icon {background-image: url(icons/communities.svg)}
+.side__settings-icon {background-image: url(icons/settings.svg)}
+.side__support-icon {background-image: url(icons/support.svg)}
+.side__privacity-icon {background-image: url(icons/privacity.svg)}
+
 .side__nav-link {
   font-family: var(--font-paragraph);
   font-weight: 500;
