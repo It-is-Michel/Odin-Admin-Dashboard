@@ -28,7 +28,6 @@
 }
 
 :root {
-
   /* COLOR VARIABLES */
 
   --color-hsl-main-color: hsl(0, 0%, 98%);
@@ -53,7 +52,6 @@
   
   --font-heading: "Asap";
   --font-paragraph: "Asap";
-
 }
 
 .body-wrapper {
