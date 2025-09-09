@@ -175,6 +175,7 @@
   grid-template-areas:
     "search-block   notifications-button profile-block profile-block"
     "profile-banner actions-block        actions-block actions-block";
+  align-items: center;
 
   grid-area: header;
 
