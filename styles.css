@@ -190,6 +190,16 @@
   grid-area: notifications-button;
 }
 
+.search-block {
+  width: 90%;
+
+  justify-self: center;
+
+  display: grid;
+  grid-template: 1.5rem / 1.5rem 1fr;
+  gap: 0.4rem;
+}
+
 .search-block__search-button {
   height: 100%;
   aspect-ratio: 1 / 1;
