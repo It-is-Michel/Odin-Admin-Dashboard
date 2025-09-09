@@ -233,8 +233,13 @@
   background: none;
   background-image: url(icons/notifications.svg);
 }
+
 .profile-block {
   grid-area: profile-block;
+
+  display: grid;
+  grid-template: 2.2rem / 3rem 1fr;
+  gap: 0.4rem;
 }
 
 .profile-banner {
