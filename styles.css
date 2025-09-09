@@ -184,9 +184,6 @@
 
 .search-block {
   grid-area: search-block;
-}
-
-.search-block {
   width: 90%;
 
   justify-self: center;
