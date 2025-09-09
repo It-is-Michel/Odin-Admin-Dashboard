@@ -171,6 +171,8 @@
 
 .header {
   grid-area: header;
+
+  background-color: var(--color-hsl-main-color);
 }
 
 /* MAIN */
