@@ -104,8 +104,6 @@
   aspect-ratio: 1 / 1;
 
   justify-self: center;
-
-  filter: invert(100%);
 }
 
 .side__home-icon,
@@ -201,8 +199,6 @@
 
   background: none;
   background-image: url(icons/search.svg);
-
-  filter: invert(var(--color-hsl-text-color-l));
 }
 
 .search-block__search-input {
@@ -236,8 +232,6 @@
 
   background: none;
   background-image: url(icons/notifications.svg);
-
-  filter: invert(var(--color-hsl-text-color-l));
 }
 .profile-block {
   grid-area: profile-block;
