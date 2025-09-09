@@ -186,10 +186,6 @@
   grid-area: search-block;
 }
 
-.header__notifications-button {
-  grid-area: notifications-button;
-}
-
 .search-block {
   width: 90%;
 
@@ -228,6 +224,10 @@
   --bg-hsl-color: var(--bg-color-h) var(--bg-color-s) var(--bg-color-l);
 
   background-color: hsl(var(--bg-hsl-color));
+}
+
+.header__notifications-button {
+  grid-area: notifications-button;
 }
 
 .profile-block {
