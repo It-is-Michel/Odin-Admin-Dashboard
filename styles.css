@@ -202,6 +202,24 @@
   filter: invert(var(--color-hsl-text-color-l));
 }
 
+.search-block__search-input {
+  padding-left: 1rem;
+  height: 1.5rem;
+  width: 100%;
+  
+  appearance: none;
+
+  border: none;
+  border-radius: 1rem;
+
+  --bg-color-h: var(--color-hsl-main-color-h);
+  --bg-color-s: var(--color-hsl-main-color-s);
+  --bg-color-l: calc(var(--color-hsl-main-color-l) - 10%);
+  --bg-hsl-color: var(--bg-color-h) var(--bg-color-s) var(--bg-color-l);
+
+  background-color: hsl(var(--bg-hsl-color));
+}
+
 .profile-block {
   grid-area: profile-block;
 }
