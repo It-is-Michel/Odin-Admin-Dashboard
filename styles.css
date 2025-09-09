@@ -224,9 +224,21 @@
 }
 
 .header__notifications-button {
-  grid-area: notifications-button;
-}
+  margin-right: 0.4rem;
 
+  height: 1.5rem;
+  aspect-ratio: 1 / 1;
+  
+  grid-area: notifications-button;
+  justify-self: end;
+
+  border: none;
+
+  background: none;
+  background-image: url(icons/notifications.svg);
+
+  filter: invert(var(--color-hsl-text-color-l));
+}
 .profile-block {
   grid-area: profile-block;
 }
