@@ -170,9 +170,35 @@
 /* HEADER */
 
 .header {
+  display: grid;
+  grid-template: 45% 55% / 1fr repeat(3, 12ch);
+  grid-template-areas:
+    "search-block   notifications-button profile-block profile-block"
+    "profile-banner actions-block        actions-block actions-block";
+
   grid-area: header;
 
   background-color: var(--color-hsl-main-color);
+}
+
+.search-block {
+  grid-area: search-block;
+}
+
+.header__notifications-button {
+  grid-area: notifications-button;
+}
+
+.profile-block {
+  grid-area: profile-block;
+}
+
+.profile-banner {
+  grid-area: profile-banner;
+}
+
+.actions-block {
+  grid-area: actions-block;
 }
 
 /* MAIN */
