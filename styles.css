@@ -189,6 +189,18 @@
   grid-area: notifications-button;
 }
 
+.search-block__search-button {
+  height: 1.5rem;
+  aspect-ratio: 1 / 1;
+
+  border: none;
+
+  background: none;
+  background-image: url(icons/search.svg);
+
+  filter: invert(var(--color-hsl-text-color-l));
+}
+
 .profile-block {
   grid-area: profile-block;
 }
