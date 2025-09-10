@@ -373,6 +373,16 @@
   font-size: 1.2rem;
 }
 
+.project {
+  padding: 2rem 1rem;
+
+  border-left: solid 0.5rem var(--color-hsl-accent-color);
+  border-radius: 0.5rem;
+
+  background-color: var(--color-hsl-main-color);
+  box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
+}
+
 .announcements-section {
   grid-area: announcements-section;
 }
