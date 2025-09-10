@@ -340,4 +340,6 @@
 .main {
   z-index: -2;
   grid-area: main;
+
+  background-color: var(--color-hsl-background-color)
 }
