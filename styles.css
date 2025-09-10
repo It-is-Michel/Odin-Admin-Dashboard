@@ -258,6 +258,8 @@
 }
 
 .profile-banner {
+  width: 90%;
+
   grid-area: profile-banner;
 }
 
