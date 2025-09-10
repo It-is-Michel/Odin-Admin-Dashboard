@@ -235,6 +235,8 @@
 }
 
 .profile-block {
+  margin-left: 1rem;
+
   grid-area: profile-block;
 
   display: grid;
