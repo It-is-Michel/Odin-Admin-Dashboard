@@ -389,6 +389,16 @@
   line-height: 1.5;
 }
 
+.project__description {
+  margin: 0;
+
+  font-family: var(--font-paragraph);
+
+  --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
+
+  color: hsl(var(--font-color));
+}
+
 .announcements-section {
   grid-area: announcements-section;
 }
