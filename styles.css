@@ -76,7 +76,7 @@
   display: grid;
   grid-auto-rows: var(--nav-link-height);
 
-  background-color: var(--color-hsl-accent-color);
+  background-color: var(--color-hsl-secondary-color);
 }
 
 .side__title-wrapper,
@@ -330,7 +330,7 @@
   border: none;
   border-radius: 1.1rem;
 
-  background-color: var(--color-hsl-accent-color);
+  background-color: var(--color-hsl-secondary-color);
 
   font-family: var(--font-paragraph);
   font-weight: 500;
