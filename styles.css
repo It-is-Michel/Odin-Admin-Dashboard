@@ -261,6 +261,7 @@
   width: 90%;
 
   grid-area: profile-banner;
+  justify-self: center;
 }
 
 .actions-block {
