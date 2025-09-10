@@ -356,6 +356,10 @@
 
 .projects-section {
   grid-area: projects-section;
+
+  display: grid;
+  grid-template: 2rem repeat(3, 1fr) / 1fr 1fr;
+  gap: 1.5rem;
 }
 
 .announcements-section {
