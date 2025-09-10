@@ -219,6 +219,8 @@
 
   background: none;
   background-image: url(icons/search.svg);
+  
+  cursor: pointer;
 }
 
 .search-block__search-input {
@@ -252,6 +254,8 @@
 
   background: none;
   background-image: url(icons/notifications.svg);
+  
+  cursor: pointer;
 }
 
 .profile-block {
@@ -338,6 +342,8 @@
   font-family: var(--font-paragraph);
   font-weight: 500;
   color: var(--color-hsl-main-color);
+  
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -431,6 +437,8 @@
   aspect-ratio: 1 / 1;
   background: none;
   border: none;
+  
+  cursor: pointer;
 }
 
 .project__rate-button {background-image: url(icons/rate.svg)}
