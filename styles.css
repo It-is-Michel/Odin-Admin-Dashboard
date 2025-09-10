@@ -386,6 +386,14 @@
 
   background-color: var(--color-hsl-main-color);
   box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
+
+  display: grid;
+  grid-template: 1fr 1.5rem / 1fr;
+  gap: 1rem;
+}
+
+.project__content-wrapper {
+  overflow: hidden;
 }
 
 .project__header {
@@ -402,7 +410,31 @@
   --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
 
   color: hsl(var(--font-color));
+  text-overflow: ellipsis;
 }
+
+.project__buttons-container {
+  height: 1.5rem;
+
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.project__rate-button,
+.project__follow-button,
+.project__share-button {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  background: none;
+  border: none;
+}
+
+.project__rate-button {background-image: url(icons/rate.svg)}
+
+.project__follow-button {background-image: url(icons/follow.svg)}
+
+.project__share-button {background-image: url(icons/share.svg)}
 
 .announcements-section {
   grid-area: announcements-section;
