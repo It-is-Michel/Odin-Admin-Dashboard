@@ -367,6 +367,8 @@
 
   grid-row: 1 / span 1;
   grid-column: 1 / span 2;
+
+  font-size: 1.2rem;
 }
 
 .announcements-section {
