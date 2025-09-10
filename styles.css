@@ -338,5 +338,6 @@
 /* MAIN */
 
 .main {
+  z-index: -2;
   grid-area: main;
 }
