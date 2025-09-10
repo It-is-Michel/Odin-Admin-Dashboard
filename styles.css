@@ -278,6 +278,11 @@
   background-image: url(images/morgan-oakley-user-photo.svg);
 }
 
+.profile-banner__welcome,
+.profile-banner__profile-name {
+  margin: 0;
+}
+
 .actions-block {
   grid-area: actions-block;
 }
