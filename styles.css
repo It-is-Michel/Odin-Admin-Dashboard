@@ -285,6 +285,16 @@
   line-height: 1.5;
 }
 
+.profile-banner__welcome {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.profile-banner__profile-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 .actions-block {
   grid-area: actions-block;
 }
