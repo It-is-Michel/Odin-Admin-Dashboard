@@ -383,6 +383,12 @@
   box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
 }
 
+.project__header {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .announcements-section {
   grid-area: announcements-section;
 }
