@@ -1,4 +1,4 @@
-@import 'node_modules/modern-normalize/modern-normalize.css';
+@import 'modern-normalize.css';
 
 @font-face {
     font-family: 'Asap';
@@ -378,6 +378,7 @@
   grid-row: 1 / span 1;
   grid-column: 1 / span 2;
 
+  font-family: var(--font-heading);
   font-size: 1.2rem;
 }
 
