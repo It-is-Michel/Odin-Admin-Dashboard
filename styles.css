@@ -349,7 +349,7 @@
   background-color: var(--color-hsl-background-color);
 
   display: grid;
-  grid-template: 1fr 1fr / 7fr 3fr;
+  grid-template: 1fr 1fr / 10fr 3fr;
   grid-template-areas:
     "projects-section announcements-section"
     "projects-section trending-section";
