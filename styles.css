@@ -180,6 +180,21 @@
   background-color: var(--color-hsl-main-color);
 }
 
+.header__shadow {
+  height: 1px;
+  width: 100%;
+
+  position: relative;
+  top: -1px;
+
+  z-index: -1;
+
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 4;
+
+  box-shadow: hsla(0 0% 0%) 0 0 0.5rem;
+}
+
 .search-block {
   grid-area: search-block;
   width: 90%;
