@@ -374,7 +374,7 @@
 
 .projects-container {
   display: grid;
-  grid-template: repeat(3, 1fr) / 1fr 1fr;
+  grid-template: repeat(3, 15rem) / 1fr 1fr;
   gap: 1.5rem;
 }
 
