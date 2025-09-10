@@ -339,6 +339,9 @@
 
 .main {
   z-index: -2;
+
+  padding: 1.5rem;
+
   grid-area: main;
 
   background-color: var(--color-hsl-background-color);
@@ -348,6 +351,7 @@
   grid-template-areas:
     "projects-section announcements-section"
     "projects-section trending-section";
+  gap: 1.5rem;
 }
 
 .projects-section {
