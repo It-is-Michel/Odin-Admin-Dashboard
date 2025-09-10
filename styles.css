@@ -262,6 +262,9 @@
 
   grid-area: profile-banner;
   justify-self: center;
+
+  display: grid;
+  grid-template: 3.5rem / 4rem 1fr;
 }
 
 .actions-block {
