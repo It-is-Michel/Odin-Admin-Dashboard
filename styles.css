@@ -362,6 +362,10 @@
   gap: 1.5rem;
 }
 
+.projects-section__header {
+  margin: 0;
+}
+
 .announcements-section {
   grid-area: announcements-section;
 }
