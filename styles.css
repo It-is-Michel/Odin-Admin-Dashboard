@@ -470,14 +470,16 @@
   box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
 
   display: grid;
-  grid-auto-rows: 5rem;
-  gap: 0.5rem;
+  grid-template-rows: 1fr 1px 1fr 1px 1fr;
+  gap: 1rem;
+}
+
+.announcements-wrapper__rule {
+  background-color: gray;
 }
 
 .announcement {
-  padding-bottom: 1rem;
-  border-bottom: solid 1px gray;
-
+  align-self: center;
   overflow: hidden;
 }
 
