@@ -502,6 +502,9 @@
 
 .trending-section {
   grid-area: trending-section;
+
+  display: grid;
+  grid-template-rows: 1.5rem;
 }
 
 .trending-section__header {
