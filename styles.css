@@ -516,5 +516,7 @@
 }
 
 .trending-section__wrapper {
+  padding: 1.5rem;
+
   background-color: var(--color-hsl-main-color);
 }
