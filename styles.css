@@ -467,6 +467,10 @@
   background-color: var(--color-hsl-main-color);
 
   box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
+
+  display: grid;
+  grid-auto-rows: 5rem;
+  gap: 0.5rem;
 }
 
 .announcement__header {
