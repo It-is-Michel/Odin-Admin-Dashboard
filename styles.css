@@ -473,6 +473,11 @@
   gap: 0.5rem;
 }
 
+.announcement {
+  padding-bottom: 1rem;
+  border-bottom: solid 1px gray;
+}
+
 .announcement__header {
   font-family: var(--font-heading);
   font-size: 0.9rem;
