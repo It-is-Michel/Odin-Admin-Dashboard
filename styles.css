@@ -421,7 +421,6 @@
   --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
 
   color: hsl(var(--font-color));
-  text-overflow: ellipsis;
 }
 
 .project__buttons-container {
