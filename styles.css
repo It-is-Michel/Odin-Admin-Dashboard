@@ -527,3 +527,7 @@
 .trending-profile {
   display: flex;
 }
+
+.trending-profile__username::before {
+  content: "@";
+}
