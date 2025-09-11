@@ -476,6 +476,8 @@
 .announcement {
   padding-bottom: 1rem;
   border-bottom: solid 1px gray;
+
+  overflow: hidden;
 }
 
 .announcement__header {
