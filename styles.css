@@ -467,6 +467,13 @@
   background-color: var(--color-hsl-main-color);
 }
 
+.announcement__header {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .trending-section {
   grid-area: trending-section;
 }
