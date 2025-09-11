@@ -554,6 +554,26 @@
   grid-area: photo;
 }
 
+#tegan-photo {
+  background-image: url(images/tegan-photo.webp);
+  background-size: cover;
+  background-repeat: none;
+}
+
+#morgan-photo {background-image: url(images/morgan-oakley-user-photo.svg)}
+
+#kendal-photo {
+  background-image: url(images/kendal-photo.webp);
+  background-size: cover;
+  background-repeat: none;
+}
+
+#alex-photo {
+  background-image: url(images/alex-photo.webp);
+  background-size: cover;
+  background-repeat: none;
+}
+
 .trending-profile__username {
   margin: 0;
 
