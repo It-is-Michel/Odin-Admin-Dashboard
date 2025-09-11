@@ -451,6 +451,15 @@
   grid-area: announcements-section;
 }
 
+.announcements-section__header {
+  margin: 0;
+
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .trending-section {
   grid-area: trending-section;
 }
