@@ -474,6 +474,15 @@
   line-height: 1.5;
 }
 
+.announcement__body {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+
+  --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
+  color: hsl(var(--font-color));
+}
+
 .trending-section {
   grid-area: trending-section;
 }
