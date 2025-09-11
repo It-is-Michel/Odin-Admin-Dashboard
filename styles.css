@@ -531,3 +531,20 @@
 .trending-profile__username::before {
   content: "@";
 }
+
+.trending-profile__username {
+  margin: 0;
+  
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.trending-profile__trending-project {
+  margin: 0;
+
+  font-family: var(--font-paragraph);
+  font-size: 0.8rem;
+  --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
+  color: hsl(var(--font-color));
+}
