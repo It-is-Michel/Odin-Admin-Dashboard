@@ -538,7 +538,7 @@
 }
 
 .trending-profile__profile-photo {
-  height: clamp(0px, 100%, 3.5rem);
+  height: clamp(0px, 100%, 3rem);
   aspect-ratio: 1 / 1;
 
   border: solid 1px var(--color-hsl-text-color);
