@@ -465,6 +465,8 @@
   border: none;
   border-radius: 1rem;
   background-color: var(--color-hsl-main-color);
+
+  box-shadow: hsla(0 0% 0% / 10%) 0.2rem 0.2rem 0.3rem;
 }
 
 .announcement__header {
