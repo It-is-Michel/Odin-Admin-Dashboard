@@ -514,3 +514,7 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+.trending-section__wrapper {
+  background-color: var(--color-hsl-main-color);
+}
