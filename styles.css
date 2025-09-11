@@ -525,7 +525,11 @@
 }
 
 .trending-profile {
-  display: flex;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "photo username"
+    "photo project ";
 }
 
 .trending-profile__username::before {
@@ -534,10 +538,12 @@
 
 .trending-profile__username {
   margin: 0;
-  
+
   font-family: var(--font-heading);
   font-size: 0.9rem;
   line-height: 1.5;
+
+  grid-area: username;
 }
 
 .trending-profile__trending-project {
@@ -547,4 +553,6 @@
   font-size: 0.8rem;
   --font-color: var(--color-hsl-text-color-h), var(--color-hsl-text-color-s), calc(var(--color-hsl-text-color-l) + 15%);
   color: hsl(var(--font-color));
+
+  grid-area: project;
 }
