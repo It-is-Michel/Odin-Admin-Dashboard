@@ -530,6 +530,7 @@
   grid-template-areas:
     "photo username"
     "photo project ";
+    gap: 0.5rem;
 }
 
 .trending-profile__username::before {
