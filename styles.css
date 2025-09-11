@@ -530,6 +530,7 @@
   grid-template-areas:
     "photo user-info";
     gap: 0.5rem;
+  align-items: center;
 }
 
 .trending-profile__username::before {
