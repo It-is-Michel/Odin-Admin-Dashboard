@@ -448,6 +448,9 @@
 
 .announcements-section {
   grid-area: announcements-section;
+
+  display: grid;
+  grid-template-rows: 2rem 1fr;
 }
 
 .announcements-section__header {
@@ -487,7 +490,6 @@
   font-family: var(--font-heading);
   font-size: 0.9rem;
   font-weight: 500;
-  line-height: 1.5;
 }
 
 .announcement__body {
