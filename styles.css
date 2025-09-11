@@ -269,7 +269,8 @@
 }
 
 .profile-block__profile-photo {
-  border: solid 1px var(--color-hsl-text-color);
+  box-shadow: hsla(0 0% 0% / 10%) 0.1rem 0.1rem 0.3rem;
+
   border-radius: 1.5rem;
 
   height: 2.2rem;
@@ -294,7 +295,7 @@
 }
 
 .profile-banner__profile-photo {
-  border: solid 1px var(--color-hsl-text-color);
+  box-shadow: hsla(0 0% 0% / 10%) 0.1rem 0.1rem 0.3rem;
   border-radius: 2rem;
 
   height: 3.5rem;
@@ -546,7 +547,8 @@
   height: clamp(0px, 100%, 3rem);
   aspect-ratio: 1 / 1;
 
-  border: solid 1px var(--color-hsl-text-color);
+  box-shadow: hsla(0 0% 0% / 10%) 0.1rem 0.1rem 0.3rem;
+
   border-radius: 50%;
 
   background-color: white;
